@@ -11,10 +11,10 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
   array1 = []
-  x = groceries.collect {|k, v|
-    k.each do |item|
-      array1 << items
+  groceries.each do |category, insidecat|
+    insidecat.each do |attribute, data|
+      array1 << data
     end
-  }
+  end
   array1
 end
