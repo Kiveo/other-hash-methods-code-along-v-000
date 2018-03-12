@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   array1 = []
   x = groceries.collect {|k, v|
-    k.collect {|k, v| v}
+    k.collect {|x, y| y}
   }
 
 end
