@@ -11,8 +11,8 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
   array1 = []
-  groceries.values.each do |category, detail|
-    binding.pry
+  groceries.values.each do |detail|
+    # binding.pry
     array1 << detail
   end
   array1
