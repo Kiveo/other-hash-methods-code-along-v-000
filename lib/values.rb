@@ -11,5 +11,6 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
   array1 = []
-  groceries.collect {|k, v| v}
+  x = groceries.collect {|k, v| v}
+  x.collect {|k, v| v}
 end
