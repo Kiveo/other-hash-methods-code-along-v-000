@@ -12,7 +12,9 @@ def get_the_values(groceries)
   #code your solution here!
   array1 = []
   x = groceries.collect {|k, v|
-    k
+    k.each do |item|
+      array1 << items
+    end
   }
 
 end
