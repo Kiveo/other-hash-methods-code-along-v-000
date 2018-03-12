@@ -15,5 +15,6 @@ def get_the_values(groceries)
     cat.each do |subcat, detail|
       array1 << detail
     end
+  end
   array1
 end
