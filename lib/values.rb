@@ -16,5 +16,5 @@ def get_the_values(groceries)
       array1 << items
     end
   }
-
+  array1
 end
